@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Todo = ({ todoItem, removeTodo, completeTodo }: any) => {
   return (
     <div className='todo' style={{ textDecoration: todoItem.isCompleted ? "line-through" : "", backgroundColor: todoItem.isCompleted ? "#f7f7f2dc" : ""}}>
